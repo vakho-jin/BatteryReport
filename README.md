@@ -28,7 +28,7 @@
 ## 🚀 გაშვება
 
 ```bash
-python battery_app.py
+python batteryreport.py
 ```
 
 ---
