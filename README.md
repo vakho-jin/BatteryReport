@@ -28,7 +28,7 @@
 ## 🚀 გაშვება
 
 ```bash
-python batteryreport.py
+python BatteryInfo.py
 ```
 
 ---
@@ -54,10 +54,10 @@ img.save("icon.ico", format="ICO", sizes=[
 
 **3. ააგე EXE:**
 ```bash
-python -m PyInstaller --onefile --noconsole --icon="icon.ico" batteryreport.py
+python -m PyInstaller --onefile --noconsole --icon="icon.ico" BatteryInfo.py
 ```
 
-მზა ფაილი იქნება `dist\batteryreport.exe`-ში.
+მზა ფაილი იქნება `dist\BatteryInfo.exe`-ში.
 
 ---
 
@@ -66,7 +66,7 @@ python -m PyInstaller --onefile --noconsole --icon="icon.ico" batteryreport.py
 აპლიკაცია იყენებს Windows-ის ჩაშენებულ ბრძანებას:
 
 ```
-powercfg /batteryreport
+powercfg /BatteryInfo
 ```
 
 შემდეგ HTML ანგარიშიდან ამოიღებს მნიშვნელობებს და ითვლის:
